@@ -3,6 +3,7 @@
 echo "Let us pretend that this is building something ... and takes 20 seconds"
 
 count=0
+printf "GO_PIPELINE_LABEL is ${GO_PIPELINE_LABEL}"
 while [ "$count" -lt 20 ]; do
     count=$((count + 1))
 
