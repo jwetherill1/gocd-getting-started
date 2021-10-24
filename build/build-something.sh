@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "this is the getting started build updated before walk"
+echo "this is the getting started build updated after walk"
 
 count=0
 printf "GO_PIPELINE_LABEL is ${GO_PIPELINE_LABEL}"
