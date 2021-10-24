@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "version 1915"
+echo "version 2000"
 echo "this is the getting started build updated after walk"
 
 count=0
