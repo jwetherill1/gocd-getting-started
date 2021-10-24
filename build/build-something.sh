@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# version 19:06
+echo "version 1911"
 echo "this is the getting started build updated after walk"
 
 count=0
 printf "GO_PIPELINE_LABEL is ${GO_PIPELINE_LABEL}"
-while [ "$count" -lt 20 ]; do
+while [ "$count" -lt 3 ]; do
     count=$((count + 1))
 
     color_code=$((21 + (count % 7) + (1 + $RANDOM % 10)))
