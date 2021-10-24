@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# version 19:06
 echo "this is the getting started build updated after walk"
 
 count=0
