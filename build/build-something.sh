@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Let us pretend that this is building something ... and takes 20 seconds"
+echo "this is the getting started build"
 
 count=0
 printf "GO_PIPELINE_LABEL is ${GO_PIPELINE_LABEL}"
