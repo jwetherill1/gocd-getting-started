@@ -7,7 +7,7 @@ printf "GO_PIPELINE_LABEL is ${GO_PIPELINE_LABEL}"
 while [ "$count" -lt 20 ]; do
     count=$((count + 1))
 
-    color_code=$((31 + (count % 7) + (1 + $RANDOM % 10)))
+    color_code=$((21 + (count % 7) + (1 + $RANDOM % 10)))
     printf "\e[01;${color_code}mBuilding [$count of 20]\e[00m\n"
 
     sleep 1
